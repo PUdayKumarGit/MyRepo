@@ -1,1 +1,1 @@
-SELECT CustomerID,CustomerName FROM Customers order by CustomerName desc, CustomerID asc;
+SELECT ID,NAME FROM CUSTOMER order by NAME desc, ID asc;

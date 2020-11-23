@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool isPolindrome(const std::string& name)
+bool isPalindrome(const std::string& name)
 {
    int len=name.size()-1;
    int mid=name.size()/2;
@@ -18,5 +18,5 @@ int main()
     std::string name;
     cout<<"Enter input";
     getline(std::cin,name); 
-    cout<<isPolindrome(name)<<endl;
+    cout<<isPalindrome(name)<<endl;
 }

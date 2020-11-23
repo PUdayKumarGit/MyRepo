@@ -17,6 +17,6 @@ int main()
 {
     std::string name;
     cout<<"Enter input";
-    getline(std::cin,name); cout<<"you entered:"<<name<<endl;
+    getline(std::cin,name); 
     cout<<isPolindrome(name)<<endl;
 }
